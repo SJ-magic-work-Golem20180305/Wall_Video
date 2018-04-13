@@ -66,7 +66,7 @@ void ofApp::setup_video(ofxHapPlayer& video)
 	// video.setLoopState(OF_LOOP_PALINDROME);
 	
 	video.setSpeed(1);
-	// video.setVolume(0.0);
+	video.setVolume(0.0);
 	video.play();
 	
 	if(BootMode != BOOTMODE_PLAY){
